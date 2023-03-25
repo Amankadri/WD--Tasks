@@ -10,7 +10,7 @@
     background-color: black;
     line-height: 70px;
     text-align: center;
-    word-spacing: 10px;
+    /* word-spacing: 10px; */
     
     overflow: hidden;
     
@@ -52,7 +52,7 @@ li{
     position: absolute;
     top: 100%;
     left: 0;
-    transition: 1s;
+    transition: 0.5s;
 }
 li:hover .effect2
 {
@@ -66,9 +66,9 @@ li:hover .effect2
     position: absolute;
     top: 100%;
     left: 0;
-    transition: 1s;
+    transition:  0.5s;
 }
 li:hover .effect3
 {
-    width: 200px;
+    width: 150px;
 }

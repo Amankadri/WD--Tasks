@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg-img
+{
+    height: 600px;
+    margin-top: 70px;
+    
+  
+    background: url(Pictures/imgtask.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    background-position: center;
+   
+
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+    line-height: 200px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 5px black;
+   
+   
+}
+span
+{
+    color:  rgb(97, 248, 198);
+}
+.p1
+{
+    color: goldenrod;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 5px black;
+}
+
+
+a
+{
+
+    border: 2px ;
+    outline: none;
+  
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(97, 248, 198);
+}
+
+li
+{
+   position: relative;
+   text-align: center; 
+   line-height: 70px;
+   text-shadow: 0px 0px 5px black;
+   font-size: 20px;
+   /* font-weight: ; */
+   letter-spacing: 2px;
+   overflow: hidden;
+   
+   
+}
+
+.effect
+{
+   border: 5px solid  rgb(97, 248, 198);
+  
+   position: absolute;
+    
+    top: 10%;
+    left: 45.5%;
+    transition: 0.5s;
+   
+ 
+   
+}
+
+li:hover .effect
+{
+    height: 60px;
+    width: 170px;
+    transform: scale(1.1);
+}
