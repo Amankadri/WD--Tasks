@@ -4,8 +4,8 @@
 .bg
 {
     
-    height: 400px;
-    background: url(Pictures/m8.jpg);
+    height: 400px; 
+    background: url(Pictures/m8.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     margin: 100px;

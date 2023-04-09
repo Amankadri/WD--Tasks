@@ -1,0 +1,107 @@
+
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background: #000;
+    
+}
+.main
+{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(red blue);
+    
+}
+.ball1
+{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    animation: ball1 5s  infinite;
+}
+
+@keyframes ball1
+{
+    from{left: 0;}
+    to{left: 100%;}
+}
+
+.ball2
+{
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+    border-radius: 50%;
+  margin: 10px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+
+    animation: ball2 7s  infinite;
+}
+@keyframes ball2
+{
+    /* 0%{ top: 40%;
+        left: 0;}
+    20%{ top: 0%;
+        left: 10%;}  
+    40%{ top: 90%;
+       left: 20%;}
+    60%{ top: 0%;
+        left: 30%;}
+    80%{ top: 90%;
+         left: 40%;}   
+    100%{ top: 0%;
+         left: 50%;}    */
+         from{transform: translateY(0); }
+         to{transform: translateY(100vh);}
+}
+
+.ball3
+{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+     margin: 10px;
+    position: absolute;
+    top: 80%;
+    left: 0;
+
+    animation: ball2 4s linear infinite;
+}
+@keyframes ball2
+{
+    0%{ top: 80%;
+        left: 0;}
+    10%{ top: 50%;
+        left: 10%;}  
+    20%{ top:80%;
+       left: 20%;}
+    30%{ top: 50%;
+        left: 30%;}
+    40%{ top:80%;
+         left: 40%;}   
+    50%{ top:  50%;
+         left: 50%;}
+   60%{ top: 80%;
+        left:60%;}
+    70%{ top:  50%;
+        left: 70%;}
+    80%{ top: 80%;
+        left: 80%;}
+    90%{ top:  50%;
+         left: 90%;}
+    100%{ top: 80%;
+        left: 100%;}
+}
+
