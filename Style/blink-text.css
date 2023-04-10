@@ -37,27 +37,18 @@
    left: 0;
 
     
-   animation: blink1 .2s infinite ;
+   
    animation: test 8s infinite ;
 
  
 }
 
 
-@keyframes blink1
-{
-    
-    from{opacity: 0;}
-    to{opacity: 1;}
-
-
-
    
-}
 
  @keyframes test
 {
-    from{left: 0%;}
-    to{left: 100%;}
+    from{left: 0%; opacity: 0; }
+    to{left: 100%; opacity: 1;}
 } 
 
