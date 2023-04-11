@@ -1,0 +1,26 @@
+@media(max-width:500px)
+{
+   span{display: block;}
+   .header .nav ul{display: none;}
+   /* .header .logo{width: 100%;}
+   .header .nav{width: 100%;} */
+   .slider .col{width: 100%;}
+}
+
+@media(max-width:1000px)
+{
+   span{display: block;}
+   .header .nav ul{display: none;}
+   .header .logo{width: 100%;}
+   .header .nav{width: 100%;}
+   .slider .col{width: 100%;}
+}
+
+@media(max-width:1200px)
+{
+   /* span{display: block;}
+   .header .nav ul{display: none;} */
+   .header .logo{width: 100%;}
+   .header .nav{width: 100%;}
+   .slider .col{width: 100%;}
+}
