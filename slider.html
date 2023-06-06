@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+       img
+       {
+        animation: a 3s ;
+       }
+
+        @keyframes a
+        {
+            from{transform: scale(1);}
+            to{transform: scale(1.2);}
+        }
+
+        .main
+        {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="b.jpg" alt="" class="x" height="1000px" width="100%">
+    <img src="m.jpeg" alt="" class="x" height="1000px" width="100%">
+    <img src="o.jpg" alt="" class="x" height="1000px" width="100%">
+    <img src="h.jpeg" alt="" class="x" height="1000px" width="100%">
+    </div>
+
+
+    <script>
+        
+        index=0;
+
+        function slider()
+        {
+            img_arr= document.getElementsByClassName('x');
+            for(i=0;i<img_arr.length;i++)
+            {
+                img_arr[i].style.display="none";
+            }
+
+            img_arr[index].style.display="block";
+            index++;
+
+            if(index==img_arr.length)
+            {
+                index=0
+            }
+
+            setTimeout("slider()",1000)
+
+        }
+        slider()
+    </script>
+</body>
+</html>

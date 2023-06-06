@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1
+        {
+            background: #000;
+            color: red;
+            width: 200px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h"></h1>
+    <button onclick="test()">Get Text</button>
+
+    <h1 id="a">BATMAN</h1>
+    <button onmouseenter="test1()" onmouseleave="test2()">Change Text</button>
+
+    <script>
+        h1_tag= document.getElementById('h')
+        h1_tag1= document.getElementById('a')
+
+        function test()
+        {
+            h1_tag.innerHTML="Aman"
+        }
+
+        function test1()
+        {
+            h1_tag1.innerHTML="I am Vengence"
+        }
+
+        function test2()
+        {
+            h1_tag1.innerHTML="BATMAN"
+        }
+
+        
+        
+
+    </script>
+</body>
+</html>
