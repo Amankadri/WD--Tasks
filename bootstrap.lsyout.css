@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.design
+{
+    height: 600px;
+    background: #a8d741;
+    margin-top: 30px;
+    position: relative;
+    
+}
+
+.design .txt
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
